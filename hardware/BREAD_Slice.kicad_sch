@@ -4662,7 +4662,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Module:Arduino_Nano"
+		(property "Footprint" "KMLib_Boards_Modules:Arduino_Nano_Headers"
 			(at 40.64 154.94 0)
 			(hide yes)
 			(show_name no)
