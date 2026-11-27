@@ -2734,7 +2734,7 @@
 				)
 			)
 		)
-		(property "Description" "Heatsink with electrical connection, 1 pin"
+		(property "Description" ""
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -5852,7 +5852,7 @@
 				(justify top)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://cdn.sparkfun.com/datasheets/BreakoutBoards/WS2812B.pdf"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
