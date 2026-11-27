@@ -11579,7 +11579,7 @@
 		(descr "TSOT, 6 Pin (https://www.jedec.org/sites/default/files/docs/MO-193D.pdf variant AA), generated with kicad-footprint-generator ipc_gullwing_generator.py")
 		(tags "TSOT TO_SOT_SMD")
 		(property "Reference" "U1"
-			(at -2.95 0 0)
+			(at -2.7 2.095 0)
 			(layer "B.SilkS")
 			(uuid "6484bd4a-9bf6-4fa3-af3e-bf6ab1a8ef68")
 			(effects
@@ -12714,7 +12714,7 @@
 	)
 	(gr_rect
 		(start 124.75 112.516)
-		(end 138.35 128.984)
+		(end 138.35 131.1)
 		(stroke
 			(width 0.12)
 			(type dash)
