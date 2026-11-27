@@ -2427,7 +2427,7 @@
 	(footprint "Symbol:OSHW-Symbol_6.7x6mm_SilkScreen"
 		(layer "F.Cu")
 		(uuid "00000000-0000-0000-0000-00005fe4a5c0")
-		(at 127.95 72.5 -90)
+		(at 133.7 45.5 -90)
 		(descr "Open Source Hardware Symbol")
 		(tags "Logo Symbol OSHW")
 		(property "Reference" "Logo1"
