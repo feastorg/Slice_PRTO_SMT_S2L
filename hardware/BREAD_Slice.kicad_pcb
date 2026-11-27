@@ -12870,16 +12870,16 @@
 			)
 		)
 	)
-	(gr_text "BREAD Slice\nTemplate:\n->smtProto\nSLC_PRTO\nR2 04-2025"
-		(at 128.45 103.55 270)
-		(layer "F.SilkS")
+	(gr_text "BREAD Slice\nPrototyping\nSMT Components\nSLC_PRTO_SMT\nR1 11-2026"
+		(at 155.5 66 0)
+		(layer "B.SilkS")
 		(uuid "5abfd3cf-8b82-409d-b0dd-ab0b45a460bd")
 		(effects
 			(font
 				(size 1 1)
 				(thickness 0.15)
 			)
-			(justify left)
+			(justify mirror)
 		)
 	)
 	(gr_text "D6"
