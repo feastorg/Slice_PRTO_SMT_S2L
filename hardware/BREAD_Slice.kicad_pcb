@@ -2756,7 +2756,7 @@
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_text user "Heat Sink"
-			(at 0 6.75 0)
+			(at -1.2 6.75 0)
 			(unlocked yes)
 			(layer "F.SilkS")
 			(uuid "a22f09c2-d228-4859-83c8-5ee933ff1707")
@@ -11578,7 +11578,7 @@
 		(descr "TSOT, 6 Pin (https://www.jedec.org/sites/default/files/docs/MO-193D.pdf variant AA), generated with kicad-footprint-generator ipc_gullwing_generator.py")
 		(tags "TSOT TO_SOT_SMD")
 		(property "Reference" "U1"
-			(at -1.2 2.695 0)
+			(at -2.95 0 0)
 			(layer "B.SilkS")
 			(uuid "6484bd4a-9bf6-4fa3-af3e-bf6ab1a8ef68")
 			(effects
@@ -11839,7 +11839,7 @@
 		(descr "Capacitor SMD 1206 (3216 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "capacitor")
 		(property "Reference" "C2"
-			(at 0 -1.745 180)
+			(at 0 -3.6 180)
 			(layer "B.SilkS")
 			(uuid "6f5124c0-c832-42f2-8d6a-7a8be9ad2c24")
 			(effects
@@ -12998,8 +12998,8 @@
 			(justify left bottom)
 		)
 	)
-	(gr_text "5V GND"
-		(at 166.3 123.3 0)
+	(gr_text "GND"
+		(at 168.5 123.3 0)
 		(layer "F.SilkS")
 		(uuid "ce37dff6-07d6-45df-80f3-132ebb5a16a1")
 		(effects
@@ -13060,19 +13060,6 @@
 			(justify left bottom)
 		)
 	)
-	(gr_text "D13"
-		(at 159.95 102.85 0)
-		(layer "F.SilkS")
-		(uuid "77c5900a-baf8-41a2-b16b-fb26350e091e")
-		(effects
-			(font
-				(size 1 1)
-				(thickness 0.25)
-				(bold yes)
-			)
-			(justify left bottom)
-		)
-	)
 	(gr_text "GND"
 		(at 189.15 82.25 0)
 		(layer "F.SilkS")
@@ -13087,14 +13074,26 @@
 		)
 	)
 	(gr_text "ARDUINO NANO"
-		(at 150.22 116.49 90)
+		(at 150.22 118 90)
 		(layer "F.SilkS")
 		(uuid "d2c2573f-95ca-4b27-b2b0-4a4afcd9537c")
 		(effects
 			(font
-				(size 2 2)
+				(size 1.5 1.5)
 				(thickness 0.15)
 			)
+		)
+	)
+	(gr_text "12V->5V Reg"
+		(at 133.2 114.555 0)
+		(layer "B.SilkS")
+		(uuid "056806f2-56cf-4fe8-84b5-e588bde33964")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.15)
+			)
+			(justify bottom mirror)
 		)
 	)
 	(gr_text "BREAD Slice\nPrototyping\nSMT Components\nSLC_PRTO_SMT\nR1 11-2026"
@@ -13107,18 +13106,6 @@
 				(thickness 0.15)
 			)
 			(justify mirror)
-		)
-	)
-	(gr_text "12V->5V Reg"
-		(at 131.85 114.555 0)
-		(layer "B.SilkS")
-		(uuid "056806f2-56cf-4fe8-84b5-e588bde33964")
-		(effects
-			(font
-				(size 1 1)
-				(thickness 0.15)
-			)
-			(justify bottom mirror)
 		)
 	)
 	(gr_text ""
