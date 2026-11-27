@@ -6817,6 +6817,155 @@
 		)
 		(embedded_fonts no)
 	)
+	(footprint "Capacitor_SMD:C_1206_3216Metric"
+		(layer "F.Cu")
+		(uuid "7fd3e208-3385-448e-81f7-a5b89a39a233")
+		(at 170.523 130.55 90)
+		(descr "Capacitor SMD 1206 (3216 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
+		(tags "capacitor")
+		(property "Reference" "C5"
+			(at 0 2.2 0)
+			(layer "F.SilkS")
+			(uuid "cf2dde16-7e9f-4a6a-a333-dde7f39534cc")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "100nF"
+			(at 0 -1.85 90)
+			(layer "F.Fab")
+			(uuid "82140dd8-6d6e-49d2-b840-166c0f5fb24f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 90)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "f9241ab0-8bc1-4785-a829-1b6d766dfe24")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 90)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "caf70551-fc1b-4324-8d9e-e6955066ab2f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
+			(at 0 0 90)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "cea5c6d3-81ae-45fe-a404-2839ae48822b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(path "/485eb7e0-f767-4fdd-9fb8-0b60c879e9ed")
+		(sheetname "/")
+		(sheetfile "BREAD_Slice.kicad_sch")
+		(attr smd)
+		(duplicate_pad_numbers_are_jumpers no)
+		(fp_line
+			(start -0.711252 -0.91)
+			(end 0.711252 -0.91)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "57647eaf-44c6-492a-a703-0f3b87d2a888")
+		)
+		(fp_line
+			(start -0.711252 0.91)
+			(end 0.711252 0.91)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "89f191de-6c04-4838-a563-81d98f7deae9")
+		)
+		(fp_rect
+			(start -2.3 -1.15)
+			(end 2.3 1.15)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(fill no)
+			(layer "F.CrtYd")
+			(uuid "99aefec5-8907-4cd7-bdee-a415c55301f8")
+		)
+		(fp_rect
+			(start -1.6 -0.8)
+			(end 1.6 0.8)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(fill no)
+			(layer "F.Fab")
+			(uuid "1656fda1-70d4-443b-844e-d778f75304f9")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 0 90)
+			(layer "F.Fab")
+			(uuid "0e9e59f4-be2a-4bfe-8a3f-ba82f1fbe131")
+			(effects
+				(font
+					(size 0.8 0.8)
+					(thickness 0.12)
+				)
+			)
+		)
+		(pad "1" smd roundrect
+			(at -1.475 0 90)
+			(size 1.15 1.8)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(roundrect_rratio 0.217391)
+			(net "+5V")
+			(uuid "27fb3d6d-bc3a-4914-8cdc-c59e97a0b8c0")
+		)
+		(pad "2" smd roundrect
+			(at 1.475 0 90)
+			(size 1.15 1.8)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(roundrect_rratio 0.217391)
+			(net "GND")
+			(uuid "babe1435-9c28-4306-bfc4-3d65066ac1e5")
+		)
+		(embedded_fonts no)
+		(model "${KICAD10_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_1206_3216Metric.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+	)
 	(footprint "KMLib_Proto:SOT-23-6_TH_AnnularPad"
 		(layer "F.Cu")
 		(uuid "8558f15f-cfe6-404c-b9cc-6a465dbd4ce3")
@@ -12659,10 +12808,10 @@
 		(layer "Edge.Cuts")
 		(uuid "4260f0a8-ef1b-41f3-bf98-9e2ac46a984a")
 	)
-	(gr_text "INT"
-		(at 128.11 94.3 315)
+	(gr_text "GND"
+		(at 126.6 76.3 0)
 		(layer "F.SilkS")
-		(uuid "b0e38842-ac03-4c5b-8a1e-55adbb4b8c0c")
+		(uuid "5f5a1385-75d4-4463-bc21-a6137b8c26df")
 		(effects
 			(font
 				(size 0.8 0.8)
@@ -12692,17 +12841,6 @@
 			)
 		)
 	)
-	(gr_text "12V"
-		(at 128.26 99.53 315)
-		(layer "F.SilkS")
-		(uuid "3f230696-6936-45fb-9c05-e7c58419a4fe")
-		(effects
-			(font
-				(size 0.8 0.8)
-				(thickness 0.15)
-			)
-		)
-	)
 	(gr_text "SDA"
 		(at 128.085 87.155 315)
 		(layer "F.SilkS")
@@ -12714,10 +12852,10 @@
 			)
 		)
 	)
-	(gr_text "GND"
-		(at 126.6 76.3 0)
+	(gr_text "INT"
+		(at 128.11 94.3 315)
 		(layer "F.SilkS")
-		(uuid "5f5a1385-75d4-4463-bc21-a6137b8c26df")
+		(uuid "b0e38842-ac03-4c5b-8a1e-55adbb4b8c0c")
 		(effects
 			(font
 				(size 0.8 0.8)
@@ -12729,6 +12867,17 @@
 		(at 128.15 89.72 315)
 		(layer "F.SilkS")
 		(uuid "0ab7eac0-2505-46ca-a15f-2fbf3a0464df")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.15)
+			)
+		)
+	)
+	(gr_text "12V"
+		(at 128.26 99.53 315)
+		(layer "F.SilkS")
+		(uuid "3f230696-6936-45fb-9c05-e7c58419a4fe")
 		(effects
 			(font
 				(size 0.8 0.8)
@@ -12870,18 +13019,6 @@
 			)
 		)
 	)
-	(gr_text "BREAD Slice\nPrototyping\nSMT Components\nSLC_PRTO_SMT\nR1 11-2026"
-		(at 155.5 66 0)
-		(layer "B.SilkS")
-		(uuid "5abfd3cf-8b82-409d-b0dd-ab0b45a460bd")
-		(effects
-			(font
-				(size 1 1)
-				(thickness 0.15)
-			)
-			(justify mirror)
-		)
-	)
 	(gr_text "D6"
 		(at 149.95 89.05 0)
 		(layer "F.SilkS")
@@ -12943,6 +13080,18 @@
 				(size 2 2)
 				(thickness 0.15)
 			)
+		)
+	)
+	(gr_text "BREAD Slice\nPrototyping\nSMT Components\nSLC_PRTO_SMT\nR1 11-2026"
+		(at 155.5 66 0)
+		(layer "B.SilkS")
+		(uuid "5abfd3cf-8b82-409d-b0dd-ab0b45a460bd")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify mirror)
 		)
 	)
 	(gr_text "12V->5V Reg"
@@ -16152,6 +16301,14 @@
 		(uuid "8f432095-16cf-4dd6-9ef1-0c165f8af1e2")
 	)
 	(segment
+		(start 170.523 129.075)
+		(end 170.523 127.6)
+		(width 0.5)
+		(layer "F.Cu")
+		(net "GND")
+		(uuid "9272d685-f615-4d2b-aace-20d123426210")
+	)
+	(segment
 		(start 176.115 103.7233)
 		(end 176.115 99.3743)
 		(width 0.2032)
@@ -16336,6 +16493,14 @@
 		(filling no)
 		(net "GND")
 		(uuid "142d96c8-61c0-41e6-afcd-55131632c8b6")
+	)
+	(via
+		(at 170.523 127.6)
+		(size 0.8)
+		(drill 0.4)
+		(layers "F.Cu" "B.Cu")
+		(net "GND")
+		(uuid "168c4f70-182b-425f-88c5-9f0444703ad0")
 	)
 	(via
 		(at 126.35 126.455)
@@ -18237,6 +18402,14 @@
 		(layer "F.Cu")
 		(net "+5V")
 		(uuid "ceb49980-bc0a-4362-b90b-6b510b32b03d")
+	)
+	(segment
+		(start 170.523 132.025)
+		(end 170.523 134.132769)
+		(width 0.5)
+		(layer "F.Cu")
+		(net "+5V")
+		(uuid "d0c002dd-2393-4e4a-a06b-08a850d7dca8")
 	)
 	(segment
 		(start 167.35 134.7)
