@@ -12874,7 +12874,7 @@
 		(uuid "aeffc43e-48eb-4c28-b028-06eea58e6015")
 	)
 	(gr_text "INT"
-		(at 123.525 96.175 0)
+		(at 123.525 93.625 0)
 		(layer "F.SilkS")
 		(uuid "b0e38842-ac03-4c5b-8a1e-55adbb4b8c0c")
 		(effects
@@ -12962,7 +12962,7 @@
 		)
 	)
 	(gr_text "SYNC"
-		(at 124.153572 93.625 0)
+		(at 124.153572 96.175 0)
 		(layer "F.SilkS")
 		(uuid "55159f70-13f1-47a3-bb2b-c74826aa604c")
 		(effects
