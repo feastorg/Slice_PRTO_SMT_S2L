@@ -16114,6 +16114,14 @@
 		(uuid "1350aa83-ce64-4d5e-839b-d0ba3e877baa")
 	)
 	(segment
+		(start 157.85 99.98)
+		(end 150.8 99.98)
+		(width 0.4)
+		(layer "F.Cu")
+		(net "GND")
+		(uuid "161b7e62-6bf9-4432-b8bb-301d1240f7f9")
+	)
+	(segment
 		(start 187.515 116.2699)
 		(end 187.5098 116.2751)
 		(width 0.2032)
@@ -16410,14 +16418,6 @@
 		(uuid "d323c5fb-aa79-4fe8-b5cc-f71eab869771")
 	)
 	(segment
-		(start 150.82 99.98)
-		(end 150.8 100)
-		(width 0.4)
-		(layer "F.Cu")
-		(net "GND")
-		(uuid "e0c43f41-69ad-4336-959a-48005a2962f1")
-	)
-	(segment
 		(start 176.115 103.7233)
 		(end 176.115 99.7)
 		(width 0.2032)
@@ -16440,14 +16440,6 @@
 		(layer "F.Cu")
 		(net "GND")
 		(uuid "ed18c885-ee78-4e0b-af4e-66d4367617c7")
-	)
-	(segment
-		(start 157.85 99.98)
-		(end 150.82 99.98)
-		(width 0.4)
-		(layer "F.Cu")
-		(net "GND")
-		(uuid "eed95043-f906-4659-bc6c-c9c6c2eca57a")
 	)
 	(segment
 		(start 172.275 103.7233)
@@ -16583,7 +16575,7 @@
 		(uuid "41caf95d-2218-4873-a987-0237de0c0f24")
 	)
 	(via
-		(at 150.8 100)
+		(at 150.8 99.98)
 		(size 0.6)
 		(drill 0.3)
 		(layers "F.Cu" "B.Cu")
@@ -17033,14 +17025,6 @@
 		(uuid "085e7109-a544-4504-bb13-4ed56673ac46")
 	)
 	(segment
-		(start 157.85 100.5)
-		(end 158.6 101.25)
-		(width 0.4)
-		(layer "B.Cu")
-		(net "GND")
-		(uuid "0f64f456-0f58-4b5f-bee1-fd872e850d28")
-	)
-	(segment
 		(start 173.65 96.5733)
 		(end 172.6 95.5233)
 		(width 0.2032)
@@ -17201,14 +17185,6 @@
 		(uuid "7057bd2b-fafb-47a6-ba56-ad244bbff160")
 	)
 	(segment
-		(start 157.85 99.98)
-		(end 157.85 100.5)
-		(width 0.4)
-		(layer "B.Cu")
-		(net "GND")
-		(uuid "70e456b4-409f-4ab4-b732-6ee210afbe77")
-	)
-	(segment
 		(start 187.5098 116.2751)
 		(end 186.7732 117.0117)
 		(width 0.2032)
@@ -17231,14 +17207,6 @@
 		(layer "B.Cu")
 		(net "GND")
 		(uuid "842bbf69-4b80-4abc-bdfc-ee9399d39203")
-	)
-	(segment
-		(start 157.85 99.98)
-		(end 157.85 100.25)
-		(width 0.4)
-		(layer "B.Cu")
-		(net "GND")
-		(uuid "84d7c027-f04e-488a-bf4e-d6b544ade04c")
 	)
 	(segment
 		(start 178.73 98.7913)
