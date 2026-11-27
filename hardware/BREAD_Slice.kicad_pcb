@@ -13026,7 +13026,7 @@
 	)
 	(gr_text "LED"
 		(locked yes)
-		(at 178.4 136.2 0)
+		(at 178.4 135.7 0)
 		(layer "F.SilkS")
 		(uuid "37836433-5ad0-483f-98ba-fe7a5e981f16")
 		(effects
@@ -16228,6 +16228,14 @@
 		(uuid "55808abf-bdc4-4c46-adf4-b53f76705421")
 	)
 	(segment
+		(start 175.677 137.332769)
+		(end 177.4 137.332769)
+		(width 0.5)
+		(layer "F.Cu")
+		(net "GND")
+		(uuid "56479d42-6b40-4817-8fea-ce1c5818b40d")
+	)
+	(segment
 		(start 182.435 112.7233)
 		(end 182.435 116.2699)
 		(width 0.2032)
@@ -16266,14 +16274,6 @@
 		(layer "F.Cu")
 		(net "GND")
 		(uuid "84dd513d-e9ad-4c94-93b1-aeebbf3fd106")
-	)
-	(segment
-		(start 175.6 135.9)
-		(end 175.6 137.255769)
-		(width 0.5)
-		(layer "F.Cu")
-		(net "GND")
-		(uuid "8a5d8f6e-47fe-4926-8d3a-18bdfed57162")
 	)
 	(segment
 		(start 177.355 103.7233)
@@ -16765,7 +16765,7 @@
 		(uuid "7d2569da-ccc6-48e3-af38-1ee8290a3894")
 	)
 	(via
-		(at 175.6 135.9)
+		(at 177.4 137.332769)
 		(size 0.8)
 		(drill 0.4)
 		(layers "F.Cu" "B.Cu")
